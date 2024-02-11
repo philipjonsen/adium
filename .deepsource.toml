@@ -1,0 +1,42 @@
+version = 1
+
+[[analyzers]]
+name = "python"
+
+  [analyzers.meta]
+  runtime_version = "3.x.x"
+
+[[analyzers]]
+name = "slither"
+type = "community"
+
+[[analyzers]]
+name = "dart-analyze"
+type = "community"
+
+[[analyzers]]
+name = "solhint"
+type = "community"
+
+[[analyzers]]
+name = "kube-linter"
+type = "community"
+
+[[analyzers]]
+name = "cfn-lint"
+type = "community"
+
+[[analyzers]]
+name = "javascript"
+
+  [analyzers.meta]
+  environment = ["jquery"]
+
+[[analyzers]]
+name = "php"
+
+[[analyzers]]
+name = "cxx"
+
+[[analyzers]]
+name = "csharp"
